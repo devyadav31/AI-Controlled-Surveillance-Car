@@ -18,7 +18,7 @@ An **AI-powered surveillance vehicle** built using **ESP12E, Python, OpenCV, and
 
 This project integrates **IoT**, **computer vision**, and **wireless communication** to create a smart surveillance car that can:
 
-* Respond to **voice commands** (e.g., *“move forward,” “turn left”*).
+* Respond to **voice commands** (e.g., *“find bottle,” “find person”*).
 * Detect and locate objects in a room using **OpenCV**.
 * Autonomously drive toward specific objects.
 * Stream live video over Wi-Fi with a remote monitoring interface.
@@ -52,28 +52,6 @@ This project integrates **IoT**, **computer vision**, and **wireless communicati
 * 📡 **Wi-Fi Remote Control** – Real-time commands and live monitoring.
 * 🖥️ **User Interface** – Web interface or Python UI (depending on your setup).
 * 🛡️ **Indoor Surveillance** – Designed to navigate and monitor indoor environments.
-
----
-
-## 📂 Project Structure (example)
-
-```
-/ai-surveillance-car
-│
-├── esp_firmware/
-│   └── main.ino
-│
-├── python-interface/
-│   ├── app.py
-│   ├── voice_control.py
-│   ├── object_detection.py
-│   └── utils/
-│
-├── web-interface/  (optional)
-│   └── index.html
-│
-└── README.md
-```
 
 ---
 
@@ -118,7 +96,9 @@ You can modify object classes or detection logic in `object_detection.py`.
 ## 🎤 Voice Control
 
 Uses Python’s speech recognition library to interpret commands such as:
-
+* **"find cup"**
+* **"find person"**
+* **"find bottle"**
 * **"forward"**
 * **"backward"**
 * **"left"**
